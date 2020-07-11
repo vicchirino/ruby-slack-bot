@@ -13,34 +13,29 @@ Gems:
 First of all you will need a slack app.
 This can be created in the slack web api dashboard https://api.slack.com/apps.
 
-<IMG>
+![alt text](https://github.com/vicchirino/ruby-slack-bot/blob/master/assets/img-1.png)
 
-The you will need to add some scopes to app.
-https://api.slack.com/apps/<your-slack-app-id>/oauth
+Then you will need to add some scopes in the [slack app dashboard](https://api.slack.com/apps/your-slack-app-id/oauth)
 
+![alt_text](https://github.com/vicchirino/ruby-slack-bot/blob/master/assets/img-2.png)
 
 For the propuse of this repo we will need the scopes:
 - `commands` 
 - `mpim:write`
 - `im:write`
 
-You can read more about slack app scopes here https://api.slack.com/scopes
-
-<IMG-2>
+You can read more about [slack app scopes here](https://api.slack.com/scopes)
 
 Next step will be to install the app in one of your workspace (I recommend a testing workspace)
 
-<IMG-3>
+![alt_text](https://github.com/vicchirino/ruby-slack-bot/blob/master/assets/img-3.png)
+![alt_text](https://github.com/vicchirino/ruby-slack-bot/blob/master/assets/img-4.png)
 
-Finally you need to create a slack slash command `/hello`
-Here you can read more about slash commands https://api.slack.com/interactivity/slash-commands
-
-<IMG-4>
-
-and set up command URL. (slack needs a https url, so i'm using [ngrok](https://ngrok.com/) to generate it)
+Finally you need to create a slack slash command `/hello` [Here you can read more about slash commands](https://api.slack.com/interactivity/slash-commands)
+Set up command URL. (slack needs a https url, so i'm using [ngrok](https://ngrok.com/) to generate it)
 The URL need to finish with `/slack` since that is the endpoint that i'm using in `api.rb`. 
 
-<IMG-5>
+![alt_text](https://github.com/vicchirino/ruby-slack-bot/blob/master/assets/img-5.png)
 
 ## Run
 
@@ -49,4 +44,4 @@ For real word examples this should be secret and storaged in a different place.
 
 Behind the repo run `bundle exec puma --port <your-port>` (your-port) should be same that you used for ngrok and slack urls.
 
-<GIF>
+:video: http://g.recordit.co/lf0xHXkKgt.gif
