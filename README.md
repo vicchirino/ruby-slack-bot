@@ -45,4 +45,4 @@ For real word examples this should be secret and storaged in a different place.
 
 Behind the repo run `bundle exec puma --port <your-port>` (your-port) should be same that you used for ngrok and slack urls.
 
-:video: http://g.recordit.co/lf0xHXkKgt.gif
+![](https://github.com/vicchirino/ruby-slack-bot/blob/master/assets/slack-bot.gif)
