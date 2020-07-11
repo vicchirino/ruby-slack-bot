@@ -2,7 +2,8 @@ require "slack-ruby-client"
 require "values"
 require "pry"
 
-SLACK_BOT_TOKEN = "xoxb-1137022785718-1258684027008-F7Xrf5NgzC6TyynhVlp6Ynds"
+# Here you should include your bot token
+SLACK_BOT_TOKEN = "xoxb-..."
 
 class SlackClient
 
