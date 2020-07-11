@@ -23,6 +23,7 @@ For the propuse of this repo we will need the scopes:
 - `commands` 
 - `mpim:write`
 - `im:write`
+- `chat:write`
 
 You can read more about [slack app scopes here](https://api.slack.com/scopes)
 
